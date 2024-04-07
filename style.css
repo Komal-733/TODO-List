@@ -1,0 +1,41 @@
+*{
+  font-family: arial;
+  font-size: 16px;
+}
+.delete-button,.js-add{
+  color: white;
+  background-color: rgb(124, 30, 30);
+  border: none;
+  padding: 10px;
+  width:100px;
+}
+.js-add{
+  background-color: green;
+}
+.todo-text,.todo-date,.todo-time{
+  padding:5px;
+}
+.detail{
+  width:558px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.naming{
+  width:204px;
+}
+.name-text{
+  width:204px;
+  text-wrap: wrap;
+}
+.duedate{
+  width:144px;
+}
+.duetime{
+  width:82px;
+  
+}
+.duedate,.duetime,.naming{
+  padding-left: 5px;
+}
